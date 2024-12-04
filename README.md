@@ -11,13 +11,22 @@ This is the frontend project for a news aggregator application.
 
 ### Environment Setup
 
-1. Copy the `.env.example` file to `.env`:
+1. Clone the repository:
 
-   ```bash
+```bash
+git clone https://github.com/SonySadi/news-aggregator-sb-FE.git
+cd news-aggregator-sb-FE
+```
+
+2. Copy the `.env.example` file to `.env`:
+
+   ````bash
    cp .env.example .env
-   ```
+   ```..
 
-2. Update the following variables in the `.env` file:
+   ````
+
+3. Update the following variables in the `.env` file:
    - `NEXT_PUBLIC_API_URL`: Set this to your backend URL if different from the default.
    - `PORT`: Set this to change the port the application runs on (default is 3000).
 
